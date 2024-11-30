@@ -1,0 +1,19 @@
+name: identificador-gestos
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11.9
+  - pip
+  - pip:
+      - dlib
+      - dvc[s3]
+      - keras
+      - matplotlib
+      - mediapipe
+      - notebook
+      - numpy
+      - opencv-python
+      - pylint
+      - tensorflow==2.15.1

@@ -9,10 +9,9 @@ from keras.models import load_model
 np.set_printoptions(suppress=True)
 
 # Load the model.
-model = load_model(".data/model/gestos/keras_model.h5", compile=False)
-
+model = load_model("data/model/keras_model.h5", compile=False)
 # Load the labels.
-class_names = open("./data/model/gestos/labels.txt", "r").readlines()
+class_names = open("data/model/labels.txt", "r").readlines()
 
 # Initialize the MediaPipe Hands model.
 mp_drawing = mp.solutions.drawing_utils

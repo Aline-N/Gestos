@@ -1,0 +1,6 @@
+0 closed_fist
+1 thumb_down
+2 shaka
+3 ok
+4 open_palm
+5 thumb_up
